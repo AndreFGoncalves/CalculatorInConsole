@@ -20,7 +20,7 @@ int main()
 
     if (operation == 1) {
 
-        cout << "Sum Operation.\n";
+        cout << "Sum.\n";
         int x, y;
 
         cout << "Input your first number: ";
@@ -29,11 +29,65 @@ int main()
         cout << "Input your second number: ";
         cin >> y;
 
-        int sum = x + y;
+        int result = x + y;
 
-        cout << "The resulting sum is: " << sum << endl;
+        cout << "The resulting sum is: " << result << endl;
 
-}
+    }   else if (operation == 2) {
+
+            cout << "Subtraction.\n";
+            int x, y;
+
+            cout << "Input your first number: ";
+            cin >> x;
+
+            cout << "Input your second number: ";
+            cin >> y;
+
+            int result = x - y;
+
+            cout << result << endl;
+
+        }   else if (operation == 3) {
+            
+            cout << "Multiplication.\n";
+            int x, y;
+
+            cout << "Input your first number: ";
+            cin >> x;
+
+            cout << "Input your second number: ";
+            cin >> y;
+
+            int result = x * y;
+
+            cout << result << endl;
+    
+        }   else if (operation == 4) {
+
+            cout << "Division.\n";
+            int x, y;
+
+            cout << "Input your first number: ";
+            cin >> x;
+
+            cout << "Input your second number: ";
+            cin >> y;
+
+            int result = x / y;
+
+            cout << result << endl;
+
+        }
+        else {
+            
+        cout << "Not valid.";
+
+        }
+
+
+
+    }
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
