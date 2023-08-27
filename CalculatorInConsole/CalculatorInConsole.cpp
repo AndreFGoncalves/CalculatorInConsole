@@ -18,6 +18,20 @@ int main()
 
     cin >> operation;
 
+    if (operation == 1) {
+
+        cout << "Sum Operation.\n";
+        int x, y;
+
+        cout << "Input your first number: ";
+        cin >> x;
+
+        cout << "Input your second number: ";
+        cin >> y;
+
+        int sum = x + y;
+
+        cout << "The resulting sum is: " << sum << endl;
 
 }
 
