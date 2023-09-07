@@ -74,7 +74,11 @@ int main()
             cout << "Input your second number: ";
             cin >> y;
 
-            int result = x / y;
+            //(condição)? (se verdade) : (se falso)
+
+            int result = (y == 0) ? (0) : (x / y);
+
+            
 
             cout << result << endl;
 
