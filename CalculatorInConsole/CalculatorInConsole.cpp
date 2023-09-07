@@ -20,7 +20,7 @@ int main()
 
     if (operation == 1) {
 
-        cout << "Sum.\n";
+        cout << "Sum Operation.\n";
         int x, y;
 
         cout << "Input your first number: ";
@@ -29,7 +29,7 @@ int main()
         cout << "Input your second number: ";
         cin >> y;
 
-        int result = x + y;
+        int sum = x + y;
 
         cout << "The resulting sum is: " << result << endl;
 
@@ -74,11 +74,7 @@ int main()
             cout << "Input your second number: ";
             cin >> y;
 
-            //(condição)? (se verdade) : (se falso)
-
-            int result = (y == 0) ? (0) : (x / y);
-
-            
+            int result = x / y;
 
             cout << result << endl;
 
@@ -88,12 +84,10 @@ int main()
         cout << "Not valid.";
 
         }
-    
-    cout << "New branch all operations only\n\n\n\n ok";
 
 
 
-    }
+}
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
